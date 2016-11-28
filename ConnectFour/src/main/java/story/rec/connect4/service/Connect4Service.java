@@ -31,7 +31,7 @@ public class Connect4Service {
 	private static final int DRAW = 0;
 	private static final int OPEN = -1;
 	/**  for managing game instance */
-	private GameManager gameManager;
+	private GameManager gameManager = new GameManager();//FixIt Inject singleton
 
 	/***
 	 * create a new game
